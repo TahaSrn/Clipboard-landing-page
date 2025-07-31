@@ -16,14 +16,15 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     overflow-x: hidden;
     width: 100vw;
-
+    scroll-behavior: smooth;
 }
 *{
     transition: all 0.7s;
     list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* ------------------------font family------------------------- */
@@ -100,7 +101,7 @@ body{
     border: 1px solid blue;
 }
 .brd_rad15{
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 /* -----------------------heights-------------------------------------- */
@@ -220,8 +221,121 @@ button:hover{
     gap: 5%;
 }
 
+
 @media (max-width: 420px) {
+
+    header p{
+        font-size: 2.5vw !important;
+    }
+    header h2{
+        font-size: 4vw !important;
+    }
     .buttonDiv1{
         flex-direction: column ;
+        width: 100%;
+        align-items: center;
+        gap: 1vw;
+    }
+    .buttonDiv1 button{
+        width: 50%;
+        height: 5vw;
+        font-size: 2.5vw;
+    }
+    .firstSec h2{
+        font-size: 4vw !important;
+    }
+    .firstSec p{
+        font-size: 2vw !important;
+    }
+    .secondSec{
+        flex-direction: column;
+        align-items: center;
+    }
+    .secondSec h3{
+        font-size: 4vw;
+    }
+    .secondSec p{
+        font-size: 2.5vw;
+    }
+    .textDiv{
+        margin: 0;
+    }
+    .baseText{
+        text-align: center;
+    }
+    .image1{
+        position: relative;
+    }
+    .thirdSec h2{
+        font-size: 4vw !important;
+    }
+    .thirdSec p{
+        font-size: 2vw !important;
+    }
+    .thirdSec img{
+        width: 70%;
+    }
+    .logoHead h2{
+        font-size: 4.5vw !important;
+    }
+    .logoHead p{
+        font-size: 2.5vw !important;
+    }
+    .logoSec{
+        flex-direction: column;
+        align-items: center;
+        height: 85vw;
+    }
+    .logoSec h3{
+        width: 100%;
+        margin-bottom: -1vw;
+        font-size: 4vw;
+    }
+    .logoSec p{
+        font-size: 2.5vw;
+    }
+    .logoSec img{
+        margin-bottom: -2vw;
+        height: 6vw;
+        width: 15%;
+    }
+    .logoSecCard{
+        width: 80%;
+    }
+    .logoSec2{
+        flex-direction: column;
+        gap: 5vw;
+    }
+    .logoSec2 div{
+        width: 35%;
+    }
+    .logoEnd h3{
+        font-size: 3.5vw !important;
+    }
+    .logoEnd p{
+        font-size: 2vw;
+    }
+    footer{
+        height: 60vw !important;
+        flex-direction: column;
+        gap: 6%;
+    }
+    .footImg1{
+        margin-top: 2%;
+    }
+    .footImg1 img{
+        width: 60%;
+    }
+    .footerList{
+        flex-direction: column;
+        gap: 1vw;
+        font-size: 2.5vw;
+    }
+    .footerList a{
+        margin-bottom:2vw;
+    }
+    .footImg2 img{
+        width:40%;
+        height: 60%;
     }
 }
