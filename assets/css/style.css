@@ -221,7 +221,7 @@ button:hover{
     gap: 5%;
 }
 
-
+/*--------------------- mobile responsive------------------------- */
 @media (max-width: 420px) {
 
     header p{
