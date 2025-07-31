@@ -1,0 +1,227 @@
+
+
+@font-face {
+    font-family: secure;
+    src: url("/assets/fonts/other/SourceCodePro/SourceCodePro-Regular.otf");
+}
+@font-face {
+    font-family: aeonik;
+    src: url("/assets/fonts/other/Aeonik/fonnts.com-Aeonik-Regular.ttf");
+}
+@font-face {
+    font-family: jam;
+    src: url("/assets/fonts/other/jamjuree/BaiJamjuree-Medium.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100vw;
+
+}
+*{
+    transition: all 0.7s;
+    list-style-type: none;
+}
+
+/* ------------------------font family------------------------- */
+.ff_jam{
+    font-family: jam;
+}
+.ff_sec{
+    font-family: secure;
+}
+.ff_aeo{
+    font-family: aeonik;
+}
+
+
+/* --------------------------font size----------------------------- */
+.fs_1{
+    font-size: 1vw;
+}
+.fs_1_2{
+    font-size: 1.2vw;
+}
+.fs_1_5{
+    font-size: 1.5vw;
+}
+.fs_2{
+    font-size: 2vw;
+}
+.fs_3{
+    font-size: 3vw;
+}
+.fs_3_5{
+    font-size: 3.5vw;
+}
+
+/*---------------------------- for situations--------------------------- */
+.txt_alg_cnt{
+    text-align: center;
+}
+.txt_alg_jst{
+    text-align: justify;
+}
+.alg_it_cnt{
+    align-items: center;
+}
+.flex_dir{
+    flex-direction: column;
+}
+.jst_cnt{
+    justify-content: center;
+}
+
+/*-------------------------- colors ------------------------------ */
+.bg_green{
+    background-color: hsl(171, 66%, 44%);
+}
+.bg_blue{
+    background-color: hsl(233, 100%, 69%);
+}
+.clr_white{
+    color: white;
+}
+.clr_black{
+    color: rgba(0, 0, 0, 0.6);
+}
+.bg_gray{
+    background-color: hsl(212, 16%, 84%);
+}
+
+/* -----------------------borders--------------------------------- */
+.brd_none{
+    border: none;
+}
+.border{
+    border: 1px solid blue;
+}
+.brd_rad15{
+    border-radius: 15px;
+}
+
+/* -----------------------heights-------------------------------------- */
+.height_4vw{
+    height: 4vw;
+}
+.height_15vw{
+    height: 15vw;
+}
+.height_20vw{
+    height: 20vw;
+}
+.height_20{
+    height: 20%;
+}
+.height_30{
+    height: 30%;
+}
+.height_100{
+    height: 100%;
+}
+
+
+/* ------------------------width-------------------------- */
+.width_8{
+    width: 8%;
+}
+.width_20{
+    width: 20%;
+}
+.width_30{
+    width: 30%;
+}
+.width_40{
+    width: 40%;
+}
+.width_50{
+    width: 50%;
+}
+.width_60{
+    width: 60%;
+}
+.width_85{
+    width: 85%;
+}
+.width_100{
+    width: 100%;
+}
+.width_110{
+    width: 110%;
+}
+.width_100vw{
+    width: 100vw;
+}
+
+/* ------------------------positions------------------------ */
+.pos_rel{
+    position: relative;
+}
+.pos_abs{
+    position: absolute;
+}
+
+/* ------------------------margin------------------------ */
+.mrg_btm_2{
+    margin-bottom: 2%;
+}
+.mrg_btm_10{
+    margin-bottom: 10%;
+}
+.mrg_left_8{
+    margin-left:8%;
+}
+.mrg_top_2_5{
+    margin-top: 2.5%;
+}
+.mrg_top_5{
+    margin-top: 5%;
+}
+.mrg_top_25{
+    margin-top: 25%;
+}
+/* --------------------------right------------------------- */
+.right_40{
+    right: 40%;
+}
+.right_46{
+    right: 46%;
+}
+/* --------------------------left------------------------- */
+.left_-5{
+    left: -5%;
+}
+
+/* --------------------------top---------------------- */
+.top_0{
+    top: 0%;
+}
+.top_30{
+    top: 30%;
+}
+
+/* --------------------------anim---------------------- */
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 0px -2px rgba(0, 0, 0) inset;
+}
+/* ------------------------display--------------------- */
+.dis_flex{
+    display: flex;
+}
+/* -----------------------gap--------------------- */
+.gap_2_5{
+    gap: 2.5%;
+}
+.gap_5{
+    gap: 5%;
+}
+
+@media (max-width: 420px) {
+    .buttonDiv1{
+        flex-direction: column ;
+    }
+}
